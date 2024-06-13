@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  color: white;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+}
+
+.container {
+  display: flex;
+  border: 1px solid white;
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* justify-content: start; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+#box4 {
+  flex-grow: 1;
+  background-color: red;
+}
+
+#box2 {
+  flex-grow: 2;
+  background-color: blue;
+}
+
+#box1 {
+  flex-grow: 4;
+  background-color: chartreuse;
+}
